@@ -15,15 +15,16 @@
 
 # HTML 요소
 
-    <!DOCTYPE html>
-    <html>
-    <body>
-
-    <h1>My First Heading</h1>
-
-    <p>My first paragraph.</p>
-
+    <!DOCTYPE html>       <!--이 문서가 HTML5 문서임을 정의 -->
+    <html>                <!-- HTML 페이지의 루트 요소 -->
+    <head>  </head>           <!-- HTML 페이지에 대한 메타 정보를 포함 -->
+    <title > 웹 페이지 제족   </title>    <!-- HTML 페이지의 제목을 지정 -->
+    <body>             <!--문서의 본문을 정의하며 모드 표시되는 콘텐츠의 컨테이너 -->
+    <h1>My First Heading</h1>    <!-- 큰 제목을 정의 -->
+    <p>My first paragraph.</p>   <!-- 문단을 정의 -->
     </body>
     </html>
+
+
 
   
