@@ -259,8 +259,31 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
  # 📅HTMl 표와 폼 만들기
  ### 표 만들기
  <img src = https://github.com/user-attachments/assets/3f2aa2f7-0522-4eb3-a04f-4a1d01e9e0d7 width=500px>
+표를 작성하고 행과 열을 병합
 
 
+    <table border="1">
+        <caption>표 제목</caption>
+        <tr>
+            <th>1열 제목</th>
+            <th>2열 제목</th>
+            <th>3열 제목</th>
+        </tr>
+        <tr>
+           <td rowspan="2">1행 1열</td>
+           <td>1행 2열</td>
+           <td>1행 3열</td>
+        </tr>
+        <tr>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+        <tr>
+            <td colspan="3">3행 1열</td>
+        </tr>
+    </table>
+
+    
 
 
 
