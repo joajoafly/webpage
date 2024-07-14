@@ -29,6 +29,7 @@
 https://code.visualstudio.com/
 
 
+
 # 🎆시맨틱 태그
 * header : 헤더영역
 * nav : 내비게이션 영역
@@ -111,7 +112,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
     <p>i는 기울기체를 뜻하는 <i>italic</i>의 줄임말</p>
 
 
-# 리스트 만들기
+# 📅리스트 만들기
 ### ol, li 태그 : 순서있는 리스트
 
     <ol>
@@ -143,6 +144,36 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
 
 
 # 🗺️하이퍼 링크 만들기
+### a 태그 
+
+
+    <a href="링크 주소" target="연결 방식" title="설명"></a>
+
+
+### img 태그 : 이미지 삽입
+
+    <img src="이미지 파일 경로" alt="대체 텍스트">
+
+
+### 멀티미디어 삽입하기
+* object 태그 : pdf 등 다양한 문서 파일
+      <object width="너비" height="높이" data="파일"></object>
+  
+* embed 태그 : 오디오, 비디오, 이미지 등 다양한 멀티미디어 파일
+      <embed src="파일 경로" width="너비" height="높이">
+  
+* audio 태그 : mp3 등의 오디오 파일
+      <audio src="오디오 파일 경로”></audio> 
+
+* video 태그 : mp4 등의 비디오 파일
+      <video src="비디오 파일 경로”></video> 
+
+
+
+
+ 
+
+
 
 
     
