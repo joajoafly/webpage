@@ -173,7 +173,7 @@
 
 
 # 박스 모델
-<img src=https://github.com/user-attachments/assets/a3717135-e060-4876-ba6d-944c69fdbbe0) width=400px><br>
+<img src=https://github.com/user-attachments/assets/a3717135-e060-4876-ba6d-944c69fdbbe0 width=400px><br>
 * 마진(margin) : 요소의 외부 여백     (위, 오른쪽, 아래, 왼쪽 순서로 선택하여 지정)
 * 테두리 (border) : 요소의 테두기(경계선의 스타일, 두께, 색상, 둥근 정도 선택하여 지정)
 * 패딩 (padding) : 요소의 내부 여백   (위, 오른쪽, 아래, 왼쪽 순서로 선택하여 지정)
