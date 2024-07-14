@@ -179,5 +179,241 @@
 * 패딩 (padding) : 요소의 내부 여백   (위, 오른쪽, 아래, 왼쪽 순서로 선택하여 지정)
 * 콘텐트 (content )  : 요소의 (너비, 높이, 크기, 그림자 지정)
 
-  
+
+### 박스모델 이해하기 
+#### box.html 파일 생성   
+
+    
+    <body>
+        <div class = "a" >
+            <div class = "test1">
+                <div style = "background-color: white;">첫번째 가로폭은 320픽셀</div>
+            </div>
+        </div>
+        <br>
+        <div class = "a" >
+            <div class = "test2">
+                <div style = "background-color: white;">첫번째 가로폭은 500픽셀</div>
+            </div>
+        </div>    
+    </body>
+
+
+
+### css문서 생성 (style.css생성)
+
+
+
+    .a{background-color: lightgreen; margin :0px; padding : 0px; }
+    .test1 { margin:10px;
+           border:20px solid red;
+           background-color: yellow;
+           padding : 30px;
+           width : 200px;
+        }
+    .test2 { margin:10px 20px 30px 40px;
+            border:50px solid red;
+            background-color: yellow;
+            padding : 50px 60px 70px 80px;
+            width: 200px;
+        } 
+
+
+
+### 키프레임으로 애니메이션 효과 만들기 (style.css 파일 생성)
+
+
+
+    div {
+        background: red;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation: 2s myanim;
+        animation-iteration-count: 10;
+      }
+        @keyframes myanim {
+        0% {left:0px;}
+        25% {left:100px;}
+        50% {left:200px;}
+        75% {left:100px;}
+       100% {left:0px;}
+       }
+    
+
+
+# 🎆 홈페이지에 CSS효과 추가하기(mystyel.css)
+### 상단바 화면 위에 고정하기
+
+
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        position: fixed;    /* 고정 위치 설정 */
+        width: 100%;        /* 너비 100% */
+        top: 0;             /* 페이지 맨 위에 위치 */
+        z-index: 1000;      /* 다른 요소보다 앞에 배치*/
+        display: flex;      /* 제목과 내비게이션 가로 배치 */
+        justify-content: space-between; /* 제목과 내비게이션을 양쪽 끝으로 정렬 */
+        align-items: center; /* 플렉스 안 수직 정렬 가운데 */
+    }
+
+
+### 제목 위치 지정하고 네비게이션 가로로 배치(mystyle.css)
+
+
+      /** 제목 **/
+      .main-title {
+          margin: 0 20px;            /* 제목 좌우 여백 */
+          font-size: 30px;
+      }
+      /** 내비게이션 **/
+      li {
+          list-style: none;       /* 리스트 스타일 제거 */
+      }
+      nav ul {
+          display: flex;            /* 내비게이션 메뉴 가로 배치 */
+      }
+
+
+### 메뉴 버튼의 위치와 스타일 지정 
+
+
+    .nav-btn {
+        color: #fff;            /* 버튼 글자색 */
+        padding: 5px 20px;
+        margin: 0 5px;
+        border-radius: 5px;
+        background-color: #555; /* 버튼색 */
+        border: none;             /* 테두리 제거 */
+        cursor: pointer;          /* 마우스 커서 손모양으로 변경 */
+    }
+    .nav-btn:hover {
+        background-color: #777; /*마우스 올릴때 버튼색*/
+    }
+
+### 섹션 크기를 컴퓨터 화면에 맞추기 (mystyle.css)
+
+
+
+    section {
+        height: 100vh;            /* 뷰포트 높이의 100% */
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;   /* 내부 요소 수직 배치*/
+        justify-content: center;  /* 내부 요소 수평 가운데 정렬 */
+        text-align: center;       /* 내부 요소 수직 가운데 정렬 */
+    }
+    .section-title {
+        font-size: 40px;
+    }
+
+
+
+### 소개 (about) 섹션 크기와 위치 설정 (mystyle.css)
+
+
+    /** section-about  **/
+    #about img {
+        width: 300px;
+        margin: 0 auto; /* 이미지를 가운데 정렬 */
+    }
+
+
+### 관심(favorite) 센셕의 배경색을 지정
+
+
+      /** section-favorite  **/
+      #favorite {
+          background-color: rgb(222, 191, 250);
+      }
+      #favorite .content {
+          background-color: white;
+          width:80%;
+          margin: 10% 10%;
+          padding: 2rem;
+          border-radius: 10px;
+      }
+      #favorite .content:hover {
+          background-color: blueviolet;
+          color: white;
+      }
+
+
+  ###  갤러리 (gallery) 섹션 배치
+
+
+      /** section-gallery  **/
+      #gallery #big {
+          width: 600px;
+          margin: 10px auto;
+      }
+      #gallery .picture {
+          width: 60px;
+          margin: 10px auto;
+      }
+
+
+   
+  ### 연락(contact) 섹션의 폼과 레이블  배치 및 스타일
+
+
+      /** section-contact  **/
+      .contact-form {
+          margin: 10px auto;
+          padding: 30px;
+          border-radius: 5px;
+          background-color: rgb(222, 191, 250);
+      }
+      #contact .form-group {
+          margin-bottom: 20px;
+
+      #contact label {
+          display: block;       /* 블록 요소로 바꾸기 */
+          margin-bottom: 5px;
+          text-align: left;     /* 라벨 왼쪽 정렬 */
+      }
+      #contact button {
+          padding: 5px 10px;
+      }
+
+
+
+### 백그라운드 이미지 보이도록 설정
+
+#### 배경 클래스 박스 설정 (myhome.html)
+
+
+
+     <div class="bg"></div> 
+
+
+### 배경 이미지 백그라운드로 설정 (mystyel.css)
+
+
+
+      /** 배경이미지  **/
+      .bg{
+          background: url('source/orange_big.jpg') center center;
+          background-size: cover;
+          background-attachment: fixed;
+          height: 450px;
+      }
+
+
+
+
+          
+        
+
+
+
+
+
+    
+
+
+        
 
