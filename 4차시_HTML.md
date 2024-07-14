@@ -366,8 +366,60 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
     </select>
 
 
-    
+     
+# 🎆홈페이지에 표 추가하기
+### 관심 화면(favorite 섹션)에 내가 좋아하는 관심 주제 표로 작성하기
 
+
+        <section id="favorite">
+            <h2 class="section-title">FAVORITE</h2>
+            <table border="1">
+                <tr>
+                    <td> <div class="content">
+                        <h3>HTML5</h3><br>
+                        <p>웹 페이지의 구조를 정의하는 스크립트 언어이다.</p>
+                    </div>
+                    </td>
+                    <td> <div class="content">
+                        <h3>CSS3</h3><br>
+                        <p>HTML로 작성된 웹 페이지에 디자인을 추가한다.</p>
+                    </div>
+                    </td>
+                    <td> <div class="content">
+                        <h3>JAVASCRIPT</h3><br>
+                        <p>웹 페이지의 동적인 기능을 담당한다.</p>
+                    </div>
+                    </td></tr>
+                </tr>
+            </table>
+        </section>
+
+
+   ### 연락 화면에 웹 사이트를 사용자에게서 받을 메시지 폼 작성
+
+
+     <section id="contact">
+        <h2 class="section-title">CONTACT</h2>
+        <form action="#" method="post" class="contact-form">
+            <div class="form=group">
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form=group">
+                <label for="phone">전화번호</label>
+                <input type="tel" id="phone" name="phone" >
+            </div>
+            <div class="form=group">
+                <label for="email">이메일:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form=group">
+                <label for="mesage">메시지:</label>
+                <textarea type="message" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit">전송</button>
+        </form>
+    </section>
     
 
 
