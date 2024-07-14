@@ -39,22 +39,37 @@ https://code.visualstudio.com/
 * footer : 푸터 영역
 * div : 논리적 영역 구별
 
-### 시맨틴 구조에 맞게 <body> 태그 안을 구성
+### myhome.html 파일 생성
+<title> 태그 안의 텍스트를 나의 웹 사이트 이름으로 수정
 
-
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>채움공간</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
     <body>
-        <header>
-            <div></div>
-            <nav></nav>
-        </header>
-        <section id="main"></section>
-        <section id="about"></section>
-        <section id="favorite"></section>
-        <section id="gallery"></section>
-        <section id="contact"></section>
-        <footer></footer>
-    </body>
 
+
+### 시맨틱 구조에 맞게 <body> 태그 안을 구성
+
+
+   <body>
+        <header>
+            <div></div>
+            <nav>
+            </nav>
+        </header>    
+        <section id="main"></section>
+        <section id="about"></scection>
+        <section id="favorite"></section>
+        <section id="gallery"></section>
+        <section id="contact"></section>
+        <footer></footer>
+    </body>
+   
     
 
   
