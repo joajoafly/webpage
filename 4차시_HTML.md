@@ -40,7 +40,7 @@ https://code.visualstudio.com/
 * footer : 푸터 영역
 * div : 논리적 영역 구별
 
-### myhome.html 파일 생성
+### 🎆 myhome.html 파일 생성
 <title> 태그 안의 텍스트를 나의 웹 사이트 이름으로 수정
 
     <!DOCTYPE html>
@@ -54,7 +54,7 @@ https://code.visualstudio.com/
     <body>
 
 
-### 시맨틱 구조에 맞게 <body> 태그 안을 구성
+### 🎆 시맨틱 구조에 맞게 <body> 태그 안을 구성 (myhome.html)
 
 
        <body>
@@ -186,7 +186,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
 
 
 # 🎆 홈페이지 구성 예제
-### 상단바에 내비게이션 메뉴 리스트 만들기
+### 상단바에 내비게이션 메뉴 리스트 만들기(myhome.html)
 
 
         <header>
@@ -216,7 +216,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
         </section><!--/#main -->
 
 
-### 소개 화면(aboutt)에 나를 표현하는 이미지와 글 작성하기
+### 소개 화면(aboutt)에 나를 표현하는 이미지와 글 작성하기(myhome.html)
 
 
       <section id="about">
@@ -231,7 +231,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
         </section>
 
 
-### 갤러리 화면 (gallery)에 이미지 삽입과 각 섹션에 제목 작성하기
+### 갤러리 화면 (gallery)에 이미지 삽입과 각 섹션에 제목 작성하기(myhome.html)
 
 
 
@@ -249,7 +249,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
     </section>
 
 
-### 하단바 작성하기
+### 하단바 작성하기(myhome.html)
 
      <footer>
         <p>&copy; 2024 채움공간. All rights reserved.</p>
@@ -368,7 +368,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
 
      
 # 🎆홈페이지에 표 추가하기
-### 관심 화면(favorite 섹션)에 내가 좋아하는 관심 주제 표로 작성하기
+### 관심 화면(favorite 섹션)에 내가 좋아하는 관심 주제 표로 작성하기(myhome.html)
 
 
         <section id="favorite">
@@ -395,7 +395,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
         </section>
 
 
-   ### 연락 화면에 웹 사이트를 사용자에게서 받을 메시지 폼 작성
+   ### 연락 화면에 웹 사이트를 사용자에게서 받을 메시지 폼 작성(myhome.html)
 
 
      <section id="contact">
