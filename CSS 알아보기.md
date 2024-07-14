@@ -172,3 +172,5 @@
     }
 
 
+# 박스 모델
+![스크린샷 2024-07-14 154203](https://github.com/user-attachments/assets/a3717135-e060-4876-ba6d-944c69fdbbe0)
