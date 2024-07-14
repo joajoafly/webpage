@@ -56,19 +56,69 @@ https://code.visualstudio.com/
 ### 시맨틱 구조에 맞게 <body> 태그 안을 구성
 
 
-   <body>
-        <header>
-            <div></div>
-            <nav>
-            </nav>
-        </header>    
-        <section id="main"></section>
-        <section id="about"></scection>
-        <section id="favorite"></section>
-        <section id="gallery"></section>
-        <section id="contact"></section>
-        <footer></footer>
-    </body>
+       <body>
+            <header>
+                <div></div>
+                <nav>
+                </nav>
+            </header>    
+            <section id="main"></section>
+            <section id="about"></scection>
+            <section id="favorite"></section>
+            <section id="gallery"></section>
+            <section id="contact"></section>
+            <footer></footer>
+        </body>
+
+
+### h1~h6​  태그 : 제목
+h1은 주로 타이틀 제목으로 쓴다.
+h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
+
+### p  태그 : 문단
+독립된 문단을 표현할 때 사용한다.
+
+    <h1>제목1</h1>
+    <p>첫번째 문단을 구성합니다.</p>
+    <p>두번째 문단을 구성합니다.</p>
+
+
+### br 태그  : 줄바꿈
+
+    <p>원하는 위치에서<br>줄 바꿈을 할 수 있습니다.</p>
+    <p>두 번 사용하면<br><br>빈 줄을 만들 수 있습니다.</p>
+
+
+### hr 태그 :  구분선
+구분할 수 있도록 선이 그어진다.
+
+    <h3>제목3</h3>
+    <hr>
+    <p>hr은 horizontal의 약자입니다.</p>
+    <hr>
+    <p>종료태그 없이 사용합니다.</p>
+
+
+### strong , b 태그   : 텍스트 굵게 표시
+
+    
+    <p>텍스트를 <strong>강조</strong>할 때 사용</p>
+    <p>b는 <b>bold</b>의 약자입니다</p>
+
+
+### em , i 태그 : 텍스트 기울여 표시
+    <p>em은 <em>emphasis</em>의 줄임말</p>
+    <p>i는 기울기체를 뜻하는 <i>italic</i>의 줄임말</p>
+
+
+    
+
+
+
+
+
+
+
    
     
 
