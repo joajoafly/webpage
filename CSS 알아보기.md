@@ -9,5 +9,45 @@
 * 대소문자 구분 없음
 
   
+### 스타일 적용하기
 
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS연습</title>
+        <style>
+            h2 {background-color: blueviolet;       /* 내부 스타일 시트 */
+            color: white;
+        }
+        </style>
+        <link rel="stylesheet" href = "4_style.css">     <!--- 외부 스타일 시트 적용 -->
+    </head>
+    <body>
+        <h1 style="color:blue;">인라인 스타일 적용하기</h1>       <!-- 인라인 스타일 적용-->  
+        <h2> 내부 스타일 시트 적용하기</h2>
+        <p>외부 스타일 시트 적용하기</p>  
+    </body>
+    </html>
+    
+
+
+
+  ### 스타일 적용하기 : CSS 문서(style.css)
+
+
+    p{
+    color:red;
+    background-color: yellow;
+    }
+
+
+    
+  
+
+
+  
 
