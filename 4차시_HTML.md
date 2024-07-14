@@ -29,7 +29,7 @@
 https://code.visualstudio.com/
 
 
-### 시맨틱 태그
+# 시맨틱 태그
 * header : 헤더영역
 * nav : 내비게이션 영역
 * main : 핵심 콘텐츠
