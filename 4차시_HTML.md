@@ -258,7 +258,7 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
 
  # 📅HTMl 표와 폼 만들기
  ### 표 만들기
- <img src = https://github.com/user-attachments/assets/3f2aa2f7-0522-4eb3-a04f-4a1d01e9e0d7 width=500px>
+ <img src = https://github.com/user-attachments/assets/3f2aa2f7-0522-4eb3-a04f-4a1d01e9e0d7 width=500px><br>
 표를 작성하고 행과 열을 병합
 
 
@@ -285,8 +285,90 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
 
     
 
+# 🙌 폼 만들기
+### 기본 구조
 
 
+    <form action="서버 url" method="get 또는 post"></form>
+
+
+### input 태그
+사용자가 입력한 정보를 받는 한 줄짜리 입력 요소
+
+
+    <input type="종류" name="이름" value="서버전송값"></input>
+
+### 폼의 다양한 입력 종류
+
+
+    <form action="" method="get">
+        이메일 :<input type="email" name="email"><br>
+        URL :<input type="url" name="url"><br>
+        전화번호 : <input type="tel" name="tel"><br>
+        색상 : <input type="color" name="color"><br>
+        월 : <input type="month" name="month"><br>
+        날짜 : <input type="date" name="date"><br>
+        주 :<input type="week" name="week"><br>
+        시간 : <input type="time" name="time"><br>
+        지역 시간 : <input type="datetime-local" name="localdatetime"><br>
+        숫자 :<input type="number" name="number" min="1" max="10" step="2"><br>
+        범위 :<input type="range" name="range" min="1" max="10" step="2"><br>
+        <hr>
+        성별:
+        <input type="radio" name="gender" value="male">남성
+        <input type="radio" name="gender" value="female">여성<br><hr>
+        학년 선택:
+        <input type="checkbox" name="grade" value="1" checked>1학년
+        <input type="checkbox" name="grade" value="2">2학년
+        <input type="checkbox" name="grade" value="3">3학년<br>
+        <input type="submit" value="제출">
+    </form>
+
+
+### 단일 선택 라디오 버튼
+
+
+    성별
+        <input type ="radio" name="gender" value="male">남성
+        <input type="radio" name="gender" value="female">여성
+
+
+
+### 다중 선택 체크박스
+
+
+    과일 선택:
+        <input type="checkbox" name="fruits" value="apple" checked>Apple
+        <input type="checkbox" name="fruits" value="banana">Banana
+        <input type="checkbox" name="fruits" value="lemon">lemon
+
+
+
+### label 태그 
+폼 요소에 레이블 만들기
+
+
+    <label for="userid">아이디(중복불가)
+    <input type="text" id="userid">
+    </label>
+
+
+### select, option, optgroup 태그
+선택지를 클릭하면 펼쳐지는 콤보 박스
+
+
+    <select>
+        <optgroup label="옵션선택">
+            <option value="서버전송값1">옵션1</option>
+            <option value="서버전송값2">옵션1</option>
+            <option value="서버전송값3">옵션1</option>
+        </optgroup>
+    </select>
+
+
+    
+
+    
 
 
 
