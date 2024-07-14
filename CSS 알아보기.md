@@ -68,5 +68,64 @@
  #### 하위 선택자 : 상위요소에 포함된 모든 하위 요소를 지정. 공백으로 구분
     상위요소 하위요소...  {    css코드    }
 
-  
+ ### 🐾웹 폰트 사용하기 
+  https://fonts.google.com/ 
+  원하는 폰트 검색하여 선택 -> embed code -> import
+
+
+#### 내부 스타일 시트에서 적용하기 (html파일)
+
+    <style>        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+         * {
+        font-family : "Noto Sans KR", sans-serif; 
+        font-size : 20px; 
+        letter-spacing : 1px;
+        }
+    </style>
+
+
+### 외부 스타일 시트에서 적용하기
+#### html파일에 추가하기
+    <link rel="stylesheet" href = "style.css">
+
+### css 파일에 추가하기
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+     * {
+        font-family : "Noto Sans KR", sans-serif; 
+        font-size : 20px; 
+        letter-spacing : 1px;
+        }
+    
+
+# 🎆 홈페이지 CSS추가하여 꾸미기
+### 상단바에 색상과 버튼 소성 설정하기(mystyle.css)
+
+
+    header {
+    background-color: #333;
+    color: #fff;
+    }
+    /** 제목 **/
+    .main-title {
+        font-size: 30px;
+    }
+    
+    /** 내비게이션 **/
+    li {
+        list-style: none;       /* 리스트 스타일 제거 */
+    }
+    .nav-btn {
+        color: #fff;            /* 버튼 글자색 */
+        background-color: #555; /* 버튼색 */
+        border: none;             /* 테두리 제거 */
+    }
+    .nav-btn:hover {
+        background-color: #777; /*마우스 올릴때 버튼색*/
+    }
+
+
+### 메인 섹션에 배경 이미지 추가 및 폰트 설정
+
+
 
