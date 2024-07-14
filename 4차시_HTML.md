@@ -185,7 +185,8 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
       <video src="비디오 파일 경로”></video> 
 
 
-# 🎆 내비게이션 홈페이지 만들기
+# 🎆 홈페이지 구성 예제
+### 상단바에 내비게이션 메뉴 리스트 만들기
 
 
         <header>
@@ -201,7 +202,66 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
         </header>
       
 
+
+### 홈 화면에 환영 인사 작성하기
+
+
+         <section id="main">
+            <div>
+                <h4>환영합니다</h4>
+                <h5>WELCOME</h5>
+                <h4>🎨🧸❤️🪇📸</h4>
+                <p id="autotype">여기는 채움이네 공간입니다</p>
+            </div>
+        </section><!--/#main -->
+
+
+### 소개 화면(aboutt)에 나를 표현하는 이미지와 글 작성하기
+
+
+      <section id="about">
+            <h2 class="section-title">ABOUT</h2>
+            <img src="source/polaroid.png" alt="내사진" width="400px">
+            <p>
+                맛있는거 먹고 배 채우기<br>
+                새로운 지식으로 머리 채우기<br>
+                친구들 만나서 마음 채우기<br>
+                채우기를 좋아하는 채움이네 공간
+            </p>
+        </section>
+
+
+### 갤러리 화면 (gallery)에 이미지 삽입과 각 섹션에 제목 작성하기
+
+
+
+    <section id="favorite">
+        <h2 class="section-title">FAVORITE</h2>        
+    </section>
+    <section id="gallery">
+        <h2 class="section-title">GALLERY</h2>
+        <div>
+            <img src="source/gal01.jpg" alt="" id="big">
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="section-title">CONTACT</h2>
+    </section>
+
+
+### 하단바 작성하기
+
+     <footer>
+        <p>&copy; 2024 채움공간. All rights reserved.</p>
+    </footer>
+
+
  
+
+
+
+
+
 
 
 
