@@ -189,16 +189,17 @@ h2 h3 h4 h5 h6 순으로 작아지고, 순서대로 써야한다.
 
 
         <header>
-        <h1 class="main-title">채움공간</h1>
-        <nav>
-            <ul>
-                <li><button class="nav-btn">ABOUT</button></li>
-                <li><button class="nav-btn">FAVORITE</button></li>
-                <li><button class="nav-btn">GALLERY</button></li>
-                <li><button class="nav-btn">CONTACT</button></li>
-            </ul>
-        </nav>
+        <h1 class="main-title">채움공간</h1>
+        <nav>
+            <ul>
+                <li><button class="nav-btn">ABOUT</button></li>
+                <li><button class="nav-btn">FAVORITE</button></li>
+                <li><button class="nav-btn">GALLERY</button></li>
+                <li><button class="nav-btn">CONTACT</button></li>
+            </ul>       
+        </nav>
         </header>
+      
 
  
 
