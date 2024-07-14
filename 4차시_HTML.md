@@ -29,5 +29,32 @@
 https://code.visualstudio.com/
 
 
+### 시맨틱 태그
+* header : 헤더영역
+* nav : 내비게이션 영역
+* main : 핵심 콘텐츠
+* article : 독립 콘텐츠
+* section : 콘텐츠 영역
+* aside : 사이드바 영역
+* footer : 푸터 영역
+* div : 논리적 영역 구별
+
+### 시맨틴 구조에 맞게 <body> 태그 안을 구성
+
+
+    <body>
+        <header>
+            <div></div>
+            <nav></nav>
+        </header>
+        <section id="main"></section>
+        <section id="about"></section>
+        <section id="favorite"></section>
+        <section id="gallery"></section>
+        <section id="contact"></section>
+        <footer></footer>
+    </body>
+
+    
 
   
